@@ -6,7 +6,7 @@ Una aplicación web simple para agregar, visualizar y eliminar tareas. Permite a
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone [<https://github.com/leoneleoss/Trabajo_03.git)>](https://github.com/leoneleoss/Trabajo_03.git)
+   git clone https://github.com/leoneleoss/Trabajo_03.git
    ```
 
 2. **Navegar a la carpeta del proyecto**:
@@ -25,7 +25,7 @@ Una aplicación web simple para agregar, visualizar y eliminar tareas. Permite a
 
 ## Capturas de Pantalla
 
-![Pantalla Principal](https://github.com/leoneleoss/Trabajo_03/Captura.png)
+![Pantalla Principal](img.PNG)
 
 ## Material de Apoyo
 
