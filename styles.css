@@ -1,164 +1,164 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Incluye padding y borde en el ancho y alto */
 }
 
 body {
     font-family: 'Oswald', sans-serif;  /* Fuente Oswald */
     background-color: #6ec1e2; /* Fondo azul pastel */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Altura completa de la ventana */
 }
 
 .container {
-    background-color: #fff;
+    background-color: #fff; /* Fondo blanco para el contenedor */
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 400px;
-    text-align: center;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    width: 90%; /* Ancho relativo */
+    max-width: 400px; /* Ancho máximo */
+    text-align: center; /* Alineación de texto */
 }
 
 h1 {
     margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 24px; /* Tamaño de fuente */
 }
 
 .input-container {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    justify-content: space-between; /* Espacio entre input y botón */
+    margin-bottom: 20px; /* Espacio inferior */
 }
 
 input {
-    flex: 1;
+    flex: 1; /* Toma el espacio disponible */
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
     font-family: 'Oswald', sans-serif; 
-    font-size: 16px; 
+    font-size: 16px; /* Tamaño de fuente */
 }
 
 button {
     padding: 10px 15px;
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    margin-left: 10px;
-    width: 40px;
-    height: 40px;
+    background-color: #28a745; /* Color verde */
+    color: #fff; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 50%; /* Botón circular */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    margin-left: 10px; /* Espacio a la izquierda */
+    width: 40px; /* Ancho fijo */
+    height: 40px; /* Alto fijo */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    font-weight: bold;
+    justify-content: center; /* Centra contenido */
+    align-items: center; /* Centra contenido */
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #218838; /* Color al pasar el ratón */
 }
 
 .plus-icon {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 24px; /* Tamaño del icono */
+    font-weight: bold; /* Negrita */
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
 }
 
 li {
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #e9ecef;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 18px; 
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espacio inferior */
+    background-color: #e9ecef; /* Color de fondo gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    display: flex; /* Flexbox para alinear contenido */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Centra elementos */
+    font-size: 18px; /* Tamaño de fuente */
 }
 
 li .task-text {
-    flex: 1;
-    text-align: left;
-    margin-right: 10px;
+    flex: 1; /* Toma el espacio disponible */
+    text-align: left; /* Alineación a la izquierda */
+    margin-right: 10px; /* Espacio a la derecha */
 }
 
 /* Botones de las tareas */
 li .task-buttons {
-    display: flex;
-    gap: 10px; /* Espacio entre los botones */
-    justify-content: flex-end; /* Alinear botones a la derecha */
+    display: flex; /* Flexbox para alinear botones */
+    gap: 10px; /* Espacio entre botones */
+    justify-content: flex-end; /* Alinear a la derecha */
 }
 
 li button {
-    background-color: #dc3545;
-    border: none;
-    padding: 10px 15px;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
+    background-color: #dc3545; /* Color rojo */
+    border: none; /* Sin borde */
+    padding: 10px 15px; /* Espaciado interno */
+    color: white; /* Color de texto blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    font-size: 14px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Centra texto */
     min-width: 100px; /* Ancho mínimo para los botones */
 }
 
 li button.complete-btn {
-    background-color: #28a745;
+    background-color: #28a745; /* Color verde para botón de completar */
 }
 
 li button.complete-btn:hover {
-    background-color: #218838;
+    background-color: #218838; /* Color al pasar el ratón */
 }
 
 li button:hover {
-    background-color: #c82333;
+    background-color: #c82333; /* Color al pasar el ratón */
 }
 
 li.completed .task-text {
-    text-decoration: line-through;
-    text-decoration-thickness: 3px; /* Línea de tachado más gruesa */
-    color: gray;
+    text-decoration: line-through; /* Tachado */
+    text-decoration-thickness: 3px; /* Grosor del tachado */
+    color: gray; /* Color gris para tareas completadas */
 }
 
 /* Mensaje de error */
 .error-message {
-    color: red;
-    font-size: 14px;
-    margin-bottom: 10px;
+    color: red; /* Color rojo para el mensaje de error */
+    font-size: 14px; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Espacio inferior */
 }
 
 /* Media Queries */
 @media (max-width: 480px) {
     h1 {
-        font-size: 20px;
+        font-size: 20px; /* Tamaño de fuente en pantallas pequeñas */
     }
 
     input {
-        font-size: 14px;
-        padding: 8px;
+        font-size: 14px; /* Tamaño de fuente del input */
+        padding: 8px; /* Espaciado interno del input */
     }
 
     button {
-        width: 35px;
-        height: 35px;
-        font-size: 20px;
+        width: 35px; /* Ancho de botón en pantallas pequeñas */
+        height: 35px; /* Alto de botón en pantallas pequeñas */
+        font-size: 20px; /* Tamaño de fuente en botones pequeños */
     }
 
     li {
-        font-size: 16px;
+        font-size: 16px; /* Tamaño de fuente en listas pequeñas */
     }
 
     li button {
-        font-size: 12px;
-        padding: 6px 10px;
+        font-size: 12px; /* Tamaño de fuente de botones en listas pequeñas */
+        padding: 6px 10px; /* Espaciado interno de botones pequeños */
     }
 }
