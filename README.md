@@ -27,9 +27,9 @@ Una aplicación web simple para agregar, visualizar y eliminar tareas. Permite a
 
 Aqui se puede ver que se añadieron 3 tareas y se marco la primera como completada 
 
-![1](img.PNG)
+![1](img1.PNG)
 
-Aquí se quito la tarea completada usando ell boton eliminar
+Aquí se quito la tarea completada usando el boton eliminar
 
 ![2](img2.PNG)
 
