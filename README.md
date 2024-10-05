@@ -25,7 +25,13 @@ Una aplicación web simple para agregar, visualizar y eliminar tareas. Permite a
 
 ## Capturas de Pantalla
 
-![Pantalla Principal](img.PNG)
+Aqui se puede ver que se añadieron 3 tareas y se marco la primera como completada 
+
+![1](img.PNG)
+
+Aquí se quito la tarea completada usando ell boton eliminar
+
+![2](img2.PNG)
 
 ## Material de Apoyo
 
