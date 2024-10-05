@@ -6,12 +6,12 @@ Una aplicación web simple para agregar, visualizar y eliminar tareas. Permite a
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone [<https://github.com/leoneleoss/Trabajo_03.git)>](https://github.com/leoneleoss/Trabajo_03.git)
    ```
 
 2. **Navegar a la carpeta del proyecto**:
    ```bash
-   cd nombre-del-proyecto
+   cd Trabajo_03
    ```
 
 3. **Abrir el archivo `index.html` en un navegador web**.
@@ -20,12 +20,12 @@ Una aplicación web simple para agregar, visualizar y eliminar tareas. Permite a
 
 - **Agregar Tarea**: Escribe el texto de la tarea en el campo de entrada y haz clic en el botón "+".
 - **Eliminar Tarea**: Haz clic en el botón "Eliminar" al lado de la tarea.
-- **Marcar como Completada**: Haz clic en el botón "Completar" para marcar la tarea como completada (el texto se tachará).
+- **Marcar como Completada**: Haz clic en el botón "✔" para marcar la tarea como completada (el texto se tachará).
 - **Persistencia**: Las tareas se guardan en `localStorage`, por lo que se mantienen después de recargar la página.
 
 ## Capturas de Pantalla
 
-![Pantalla Principal](ruta/a/tu/captura.png)
+![Pantalla Principal](https://github.com/leoneleoss/Trabajo_03/Captura.png)
 
 ## Material de Apoyo
 
